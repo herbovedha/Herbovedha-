@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Order Form - Herbovedha</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Place Your Order</h1>
+  </header>
+
+  <main style="padding: 2rem;">
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <label>Name:<br><input type="text" name="name" required></label><br><br>
+      <label>Email:<br><input type="email" name="email" required></label><br><br>
+      <label>Phone:<br><input type="tel" name="phone" required></label><br><br>
+      <label>Message / Order Details:<br><textarea name="message" rows="4" required></textarea></label><br><br>
+      <button type="submit">Submit Order</button>
+    </form>
+  </main>
+</body>
+</html>
